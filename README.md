@@ -23,10 +23,7 @@ We consider a 2-step graphon with:
 The objective functional (relative entropy) is:
 
 $$
-I_p(\alpha, x_{11}, x_{12}, x_{22}) =
-\alpha^2 h_p(x_{11})
-+ 2\alpha(1-\alpha) h_p(x_{12})
-+ (1-\alpha)^2 h_p(x_{22}),
+I_p(\alpha, x_{11}, x_{12}, x_{22}) = \alpha^2 h_p(x_{11}) + 2\alpha(1-\alpha) h_p(x_{12}) + (1-\alpha)^2 h_p(x_{22}),
 $$
 
 where
@@ -38,11 +35,7 @@ $$
 The triangle density is given by:
 
 $$
-T(\alpha, x) =
-\alpha^3 x_{11}^3
-+ 3\alpha^2(1-\alpha) x_{11} x_{12}^2
-+ 3\alpha(1-\alpha)^2 x_{12}^2 x_{22}
-+ (1-\alpha)^3 x_{22}^3.
+T(\alpha, x) = \alpha^3 x_{11}^3 + 3\alpha^2(1-\alpha) x_{11} x_{12}^2 + 3\alpha(1-\alpha)^2 x_{12}^2 x_{22} + (1-\alpha)^3 x_{22}^3.
 $$
 
 ---
