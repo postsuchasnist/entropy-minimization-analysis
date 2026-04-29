@@ -4,7 +4,8 @@ This project numerically studies a variational problem arising in the large devi
 
 The implementation combines nonlinear optimization with visualization, producing both static plots (Matplotlib) and an interactive heatmap (Plotly) for exploring the solution landscape.
 
-Visualization helps reveal structures that are not immediately obvious from raw numerical data.
+Visualization helps reveal patterns and structures that are not immediately obvious from raw numerical data and support deeper analytical reasoning about the system.
+
 
 ---
 
